@@ -1,8 +1,8 @@
 /* VMS::Mail - interface to vms callable mail routines from perl
  *
- * Version:	0.03
+ * Version:	0.05
  * Author:	D. North, CCP  <rold5@tditx.com>
- * Date:	00.07.17
+ * Date:	00.08.17
  * Extra credits:
  *		The itemlist manipulation code was originally modelled on the
  *		build_itmlst code from the VMS::Device module by Dan Sugalski.
@@ -27,6 +27,7 @@
  * 0.03  00.07.21 DGN	Renamed from VMSMail to just Mail. Reversioned
  *			Several bugfixes, added an smg read kbd routine
  * 0.04  00.08.01 DGN	Changed &sv_undef to &PL_sv_undef for Perl 5.6
+ * 0.05  00.08.01 DGN	Repackaged withOUT the VMS file attribs in the zipfile!
  */
 #ifdef __cplusplus
 extern "C" {
