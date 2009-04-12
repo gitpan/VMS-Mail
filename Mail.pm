@@ -13,7 +13,7 @@ require DynaLoader;
 # Do not simply export all your public functions/methods/constants.
 @EXPORT = qw();
 @EXPORT_OK = qw(&new &smg_read);
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 bootstrap VMS::Mail $VERSION;
 

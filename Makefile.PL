@@ -3,7 +3,8 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'	=> 'VMS::Mail',
-    'VERSION_FROM' => 'mail.pm', # finds $VERSION
+    'ABSTRACT_FROM' => 'Mail.pm', 
+    'VERSION_FROM' => 'Mail.pm', # finds $VERSION
     'LIBS'	=> [''],   # e.g., '-lm' 
     'DEFINE'	=> '',     # e.g., '-DHAVE_SOMETHING' 
     'INC'	=> '',     # e.g., '-I/usr/include/other' 

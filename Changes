@@ -12,3 +12,6 @@ Revision history for Perl extension VMS::Mail.
 	- CPAN release, minor bugfixes, changes to work with Perl 5.6
 0.05  Thu Aug 17 13.25.29 2000
 	- CPAN re-release - remove vms attributes from the zipfile
+0.06  Sun Apr 12 2009
+	- renamed I_STR macro to I_CSTR to avoid conflict with stropts.h
+	- handle non-default mail file (from Kim Marshall)
